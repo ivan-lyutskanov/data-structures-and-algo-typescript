@@ -1,0 +1,16 @@
+{
+  "name": "data-structures-and-algo-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "stack": "node ./build/stack.js",
+    "queue": "node ./build/queue.js"
+  },
+  "author": "Ivan Lyutskanov",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.7.2"
+  }
+}
