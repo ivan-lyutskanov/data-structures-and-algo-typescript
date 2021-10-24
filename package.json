@@ -5,12 +5,14 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "stack": "node ./build/stack.js",
-    "queue": "node ./build/queue.js"
+    "Stack": "node ./build/Stack.js",
+    "Queue": "node ./build/Queue.js",
+    "LinkedList": "node ./build/LinkedList.js"
   },
   "author": "Ivan Lyutskanov",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^16.11.4",
     "typescript": "^3.7.2"
   }
 }
